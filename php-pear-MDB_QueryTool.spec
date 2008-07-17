@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data in a DB
 Name:		php-pear-%{_pearname}
 Version:	1.2.0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
@@ -19,7 +19,7 @@ Requires:	php-pear
 BuildArch:	noarch
 BuildRequires:	dos2unix
 BuildRequires:	recode
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 %description
 This package is an OO-abstraction to the SQL-Query language, it
