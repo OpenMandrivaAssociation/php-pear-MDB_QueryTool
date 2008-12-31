@@ -8,7 +8,7 @@
 Summary:	%{_pearname} - an OO-interface for easily retrieving and modifying data in a DB
 Name:		php-pear-%{_pearname}
 Version:	1.2.2
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	PHP License
 Group:		Development/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tar.bz2
